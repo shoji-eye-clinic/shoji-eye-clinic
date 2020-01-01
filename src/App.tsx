@@ -19,7 +19,8 @@ const useStyles = makeStyles({
   },
   link: {
     color: '#fff',
-    margin: '0 10px'
+    margin: '0 10px',
+    textDecoration: 'none'
   }
 });
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core'
-import { State } from '../reducer'
 import { Slide } from 'react-slideshow-image';
 
 const useStyles = makeStyles({
@@ -8,7 +7,7 @@ const useStyles = makeStyles({
         padding: 30,
     },
     slide: {
-        width: '90%',
+        width: '100%',
         margin: 'auto'
     },
     eachSlide: {
@@ -30,16 +29,32 @@ const useStyles = makeStyles({
     }
 });
 
-const slideImages = [
-    'img/p-appearance.png',
-    'img/p-examinationroom1.png',
-    'img/p-examinationroom2.png'
-];
-
-type Props = State
+type Props = {}
+interface SlideImage {
+    path: String
+    description: String
+}
 
 const HomeComponent: React.FC<Props> = (props: Props) => {
     const classes = useStyles();
+    const slides: SlideImage[] = [
+        {
+            path: 'img/p-appearance.png',
+            description: '庄司眼科医院'
+        },
+        {
+            path: 'img/p-examinationroom1.png',
+            description: '診察室①'
+        },
+        {
+            path: 'img/p-examinationroom2.png',
+            description: '診察室②'
+        },
+        {
+            path: 'img/exam.png',
+            description: '検査室'
+        }
+    ]
     return (
         <>
             <div className={classes.root}>
@@ -51,21 +66,13 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                     indicators={true}
                     arrows={true}
                 >
-                    <div className={classes.eachSlide}>
-                        <div style={{ 'backgroundImage': `url(${slideImages[0]})` }}>
-                            <span>Slide 1</span>
+                    {slides.map((slide, key) => {
+                        return <div key={key} className={classes.eachSlide}>
+                            <div style={{ 'backgroundImage': `url(${slide.path})` }}>
+                                <span>{slide.description}</span>
+                            </div>
                         </div>
-                    </div>
-                    <div className={classes.eachSlide}>
-                        <div style={{ 'backgroundImage': `url(${slideImages[1]})` }}>
-                            <span>Slide 2</span>
-                        </div>
-                    </div>
-                    <div className={classes.eachSlide}>
-                        <div style={{ 'backgroundImage': `url(${slideImages[2]})` }}>
-                            <span>Slide 3</span>
-                        </div>
-                    </div>
+                    })}
                 </Slide>
             </div>
         </>

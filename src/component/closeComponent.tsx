@@ -1,6 +1,5 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core'
-import { State } from '../reducer'
 
 const useStyles = makeStyles({
     root: {
@@ -8,7 +7,7 @@ const useStyles = makeStyles({
     },
 });
 
-type Props = State
+type Props = {}
 
 const CloseComponent: React.FC<Props> = (props: Props) => {
     const classes = useStyles();
