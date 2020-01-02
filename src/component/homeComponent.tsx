@@ -1,5 +1,5 @@
 import React from 'react'
-import { makeStyles, Theme, useTheme, Tabs, Tab, Typography, Box } from '@material-ui/core'
+import { makeStyles, Theme, useTheme, Tabs, Tab, Typography, Box, Table, TableContainer, TableHead, TableRow, TableCell, TableBody } from '@material-ui/core'
 import { Slide } from 'react-slideshow-image';
 import SwipeableViews from 'react-swipeable-views';
 import CancelPresentationIcon from '@material-ui/icons/CancelPresentation';
@@ -157,6 +157,49 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                             </div>
                         </TabPanel>
                     </SwipeableViews>
+                </div>
+                <div>
+                    <Typography variant="h5">診療時間</Typography>
+                    <TableContainer>
+                        <Table>
+                            <TableHead>
+                                <TableRow>
+                                    <TableCell>診療時間</TableCell>
+                                    <TableCell>月</TableCell>
+                                    <TableCell>火</TableCell>
+                                    <TableCell>水</TableCell>
+                                    <TableCell>木</TableCell>
+                                    <TableCell>金</TableCell>
+                                    <TableCell>土</TableCell>
+                                    <TableCell>日・祝</TableCell>
+                                </TableRow>
+                            </TableHead>
+                            <TableBody>
+                                <TableRow>
+                                    <TableCell>午前 7:00～11:00</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell>午後 12:30～15:00</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                    <TableCell>fuga</TableCell>
+                                </TableRow>
+                            </TableBody>
+
+                        </Table>
+                    </TableContainer>
+
                 </div>
             </div>
         </>
