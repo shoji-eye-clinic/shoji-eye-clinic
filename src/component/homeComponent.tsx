@@ -22,13 +22,20 @@ const useStyles = makeStyles((theme: Theme) => ({
             height: 400
         }
     },
-    section: {
-        padding: '20px 0'
-    },
-    tabMenu: {
+    tabsWrapper: {
         margin: '0 auto',
-        maxWidth: 640
-    }
+    },
+    tabHeader: {
+        backgroundColor: '#333',
+        '& span': {
+            color: '#fff'
+        }
+    },
+    tabBody: {
+        margin: '0 auto',
+        maxWidth: 960,
+        padding: '20px 0',
+    },
 }));
 
 type Props = {}
@@ -105,47 +112,50 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                         </div>
                     })}
                 </Slide>
-                <div className={classes.tabMenu}>
+                <div className={classes.tabsWrapper}>
                     <Tabs
                         value={value}
                         onChange={handleChange}
                         indicatorColor="primary"
                         textColor="primary"
                         centered
+                        className={classes.tabHeader}
                     >
                         <Tab icon={<CancelPresentationIcon />} label="休診日" />
-                        <Tab  icon={<InfoIcon />} label="病院からのお知らせ" />
+                        <Tab icon={<InfoIcon />} label="お知らせ" />
                     </Tabs>
                     <SwipeableViews
                         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
                         index={value}
                         onChangeIndex={handleChangeIndex}
                     >
-                        <TabPanel value={value} index={0} dir={theme.direction}>
-                            <div className={classes.section}>
+                        <TabPanel value={value} index={0} dir={theme.direction} >
+                            <div className={classes.tabBody}>
                                 <Typography variant="h6">年末年始休暇のお知らせ</Typography>
                                 <Typography variant="subtitle1">年末年始は下記のとおり休診させていただきます。</Typography>
                                 <Typography variant="subtitle1">12月30日(月)・午後〜1月5日(日)</Typography>
                                 <Typography variant="subtitle1">年内の診察は12月30日(月)の午前まで</Typography>
                                 <Typography variant="subtitle1">年始の診察は1月6日(月)からとなります。</Typography>
                             </div>
-                            <div className={classes.section}>
+                            <div className={classes.tabBody}>
                                 <Typography variant="h6">2019年12月</Typography>
                                 <Typography variant="subtitle1">12月14日(土)</Typography>
                             </div>
-                            <div className={classes.section}>
+                            <div className={classes.tabBody}>
                                 <Typography variant="h6">2020年1月</Typography>
                                 <Typography variant="subtitle1">1月18日(土)</Typography>
                             </div>
-                            <div className={classes.section}>
+                            <div className={classes.tabBody}>
                                 <Typography variant="h6">2020年2月</Typography>
                                 <Typography variant="subtitle1">2月1日(土) 2月28日(金) 2月29日(土) ※2月27日(木)〜3月1日(日)は連休になります。ご注意ください。</Typography>
                                 <Typography variant="subtitle1">※詳細につきましてはお電話でお問い合わせください（0438-25-3141）</Typography>
                             </div>
                         </TabPanel>
                         <TabPanel value={value} index={1} dir={theme.direction}>
-                            病院からのお知らせ
-                    </TabPanel>
+                            <div className={classes.tabBody}>
+                                病院からのお知らせ
+                            </div>
+                        </TabPanel>
                     </SwipeableViews>
                 </div>
             </div>
