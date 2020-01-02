@@ -62,7 +62,9 @@ const App: React.FC = () => {
         <Grid container className={classes.footerGridContainer}>
           <Grid item xs={12} sm={8} className={classes.aboutUs}>
             <Typography variant="h6">このサイトについて</Typography>
-            <Typography variant="subtitle1">木更津市の眼科 庄司眼科医院は、木更津駅東口から徒歩5分以内のところにあり、通院しやすい環境にあります。最新の技術と設備による診療を心がけていますので、「目のトラブル」でした    ら、お気軽にご相談ください。患者様が、気軽にご自分の病状を相談しやすい雰囲気を大切にしています。</Typography>
+            <Typography variant="subtitle1">木更津市の眼科 庄司眼科医院は、木更津駅東口から徒歩5分以内のところにあり、通院しやすい環境にあります。</Typography>
+            <Typography variant="subtitle1">最新の技術と設備による診療を心がけていますので、「目のトラブル」でしたら、お気軽にご相談ください。</Typography>
+            <Typography variant="subtitle1">患者様が、気軽にご自分の病状を相談しやすい雰囲気を大切にしています。</Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6">お問い合わせ先</Typography>
