@@ -77,7 +77,7 @@ const App: React.FC = () => {
         </Grid>
       </div>
       <div className={classes.copyRight}>
-        <Typography variant="h6" className={classes.copyRightMessage}>Copyright (c) 2018, 庄司眼科医院; all rights reserved.</Typography>
+        <Typography variant="h6" className={classes.copyRightMessage}>Copyright (c) 2020, 庄司眼科医院; all rights reserved.</Typography>
       </div>
     </BrowserRouter>
   );
