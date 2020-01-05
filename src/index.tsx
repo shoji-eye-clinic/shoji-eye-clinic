@@ -2,9 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { ThemeProvider, createMuiTheme } from '@material-ui/core';
+import cyan from '@material-ui/core/colors/cyan';
+import amber from '@material-ui/core/colors/amber';
+
+const theme = createMuiTheme({
+    palette: {
+        primary: cyan,
+        secondary: amber,
+      },
+  });
 
 ReactDOM.render(
+    <ThemeProvider theme={theme}>
     <App />
+    </ThemeProvider>
     ,
     document.getElementById('root')
 );

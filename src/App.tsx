@@ -20,7 +20,7 @@ const useStyles = makeStyles({
   footer: {
     backgroundColor: '#555',
     color: '#fff',
-    padding: '50px 30px'
+    padding: '50px 20px'
   },
   footerGridContainer: {
     maxWidth: 960,

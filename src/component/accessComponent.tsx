@@ -1,5 +1,8 @@
 import React from 'react'
 import { makeStyles, Typography } from '@material-ui/core'
+import TrainIcon from '@material-ui/icons/Train';
+import DriveEtaIcon from '@material-ui/icons/DriveEta';
+import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 
 const useStyles = makeStyles({
     root: {
@@ -7,7 +10,14 @@ const useStyles = makeStyles({
     },
     section: {
         padding: '20px 0'
-    }
+    },
+    headerIcon: {
+        color: '#00bcd4',
+        marginRight: 5,
+        marginTop: -5,
+        fontSize: 28,
+        verticalAlign: 'middle'
+    },
 });
 
 type Props = {}
@@ -18,11 +28,11 @@ const AccessComponent: React.FC<Props> = (props: Props) => {
         <>
             <div className={classes.root}>
                 <div className={classes.section}>
-                    <Typography variant="h4">電車でお越しのかた</Typography>
+                    <Typography variant="h6"><TrainIcon className={classes.headerIcon} />電車でお越しのかた</Typography>
                     <Typography variant="subtitle1">JR内房線　木更津駅東口より徒歩5分以内です。</Typography>
                 </div>
                 <div className={classes.section}>
-                    <Typography variant="h4">車でお越しのかた</Typography>
+                    <Typography variant="h6"><DriveEtaIcon className={classes.headerIcon} />車でお越しのかた</Typography>
                     <Typography variant="subtitle1">無料駐車場のご用意がございます。(7台)</Typography>
                     <Typography variant="subtitle1">※当院駐車場が満車の場合は「三井のリパーク　木更津駅前第二」をご利用いただけます。</Typography>
                     <Typography variant="subtitle1">（当院より徒歩2分のところにあります。）</Typography>
@@ -35,7 +45,7 @@ const AccessComponent: React.FC<Props> = (props: Props) => {
                     height="500"
                 ></iframe>
                 <div className={classes.section}>
-                    <Typography variant="h4">庄司眼科医院</Typography>
+                    <Typography variant="h6"><LocalHospitalIcon className={classes.headerIcon} />庄司眼科医院</Typography>
                     <Typography variant="subtitle1">〒292-0056</Typography>
                     <Typography variant="subtitle1">千葉県木更津市木更津1-1-5</Typography>
                     <Typography variant="subtitle1">TEL：<a href="tel:0438253141">0438-25-3141</a></Typography>
