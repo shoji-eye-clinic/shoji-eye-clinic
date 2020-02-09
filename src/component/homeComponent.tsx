@@ -269,7 +269,7 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                                         <Typography variant="subtitle1">11:30～16:30</Typography>
                                     </TableCell>
                                     <TableCell align="center">
-                                        <Typography variant="subtitle1">11:30～16:30</Typography>
+                                        <Typography variant="subtitle1">11:30～16:00</Typography>
                                     </TableCell>
                                     <TableCell align="center">
                                         <Typography variant="subtitle1">☓</Typography>
