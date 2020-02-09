@@ -181,12 +181,12 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                                 <Typography variant="subtitle1">2月1日(土)</Typography>
                                 <Typography variant="subtitle1">2月28日(金)</Typography>
                                 <Typography variant="subtitle1">2月29日(土)</Typography>
-                                <Typography variant="subtitle1">**※2月27日(木)〜3月1日(日)は連休になります。ご注意ください。**</Typography>
+                                <Typography variant="subtitle1">※2月27日(木)〜3月1日(日)は連休になります。ご注意ください。</Typography>
                             </div>
                             <div className={classes.tabBody}>
                                 <Typography variant="h6">2020年3月</Typography>
                                 <Typography variant="subtitle1">3月21日(土)</Typography>
-                                <Typography variant="subtitle1">**※3月19日(木)〜22日(日)は連休になります。ご注意ください。**</Typography>
+                                <Typography variant="subtitle1">※3月19日(木)〜22日(日)は連休になります。ご注意ください。</Typography>
                             </div>
                             <div className={classes.tabBody}>
                                 <Typography variant="h6">2020年4月</Typography>
