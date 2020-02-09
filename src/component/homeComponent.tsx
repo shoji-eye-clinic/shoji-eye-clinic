@@ -177,64 +177,61 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                     >
                         <TabPanel value={value} index={0} dir={theme.direction} >
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">年末年始休暇のお知らせ</Typography>
-                                <Typography variant="subtitle1">年末年始は下記のとおり休診させていただきます。</Typography>
-                                <Typography variant="subtitle1">12月30日(月)・午後〜1月5日(日)</Typography>
-                                <Typography variant="subtitle1">年内の診察は12月30日(月)の午前まで</Typography>
-                                <Typography variant="subtitle1">年始の診察は1月6日(月)からとなります。</Typography>
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">2019年12月</Typography>
-                                <Typography variant="subtitle1">12月14日(土)</Typography>
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">2020年1月</Typography>
-                                <Typography variant="subtitle1">1月18日(土)</Typography>
-                            </div>
-                            <div className={classes.tabBody}>
                                 <Typography variant="h6">2020年2月</Typography>
-                                <Typography variant="subtitle1">2月1日(土) 2月28日(金) 2月29日(土) ※2月27日(木)〜3月1日(日)は連休になります。ご注意ください。</Typography>
+                                <Typography variant="subtitle1">2月1日(土)</Typography>
+                                <Typography variant="subtitle1">2月28日(金)</Typography>
+                                <Typography variant="subtitle1">2月29日(土)</Typography>
+                                <Typography variant="subtitle1">**※2月27日(木)〜3月1日(日)は連休になります。ご注意ください。**</Typography>
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2020年3月</Typography>
+                                <Typography variant="subtitle1">3月21日(土)</Typography>
+                                <Typography variant="subtitle1">**※3月19日(木)〜22日(日)は連休になります。ご注意ください。**</Typography>
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2020年4月</Typography>
+                                <Typography variant="subtitle1">4月18日(土)</Typography>
                                 <Typography variant="subtitle1">※詳細につきましてはお電話でお問い合わせください（0438-25-3141）</Typography>
                             </div>
                         </TabPanel>
                         <TabPanel value={value} index={1} dir={theme.direction}>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6"><LocalHospitalIcon className={classes.headerIcon}/>医院名</Typography>
+                                <Typography variant="h6"><LocalHospitalIcon className={classes.headerIcon} />医院名</Typography>
                                 <Typography variant="subtitle1">庄司眼科医院</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6"><LocationOnIcon className={classes.headerIcon}/>住所</Typography>
+                                <Typography variant="h6"><LocationOnIcon className={classes.headerIcon} />住所</Typography>
                                 <Typography variant="subtitle1">292-0056</Typography>
                                 <Typography variant="subtitle1">千葉県木更津市木更津1-1-5</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6"><CallIcon className={classes.headerIcon}/>電話番号</Typography>
+                                <Typography variant="h6"><CallIcon className={classes.headerIcon} />電話番号</Typography>
                                 <Typography variant="subtitle1">0438-25-3141</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6"><ScheduleIcon className={classes.headerIcon}/>診療時間</Typography>
+                                <Typography variant="h6"><ScheduleIcon className={classes.headerIcon} />診療時間</Typography>
                                 <Typography variant="subtitle1">9:00～12:00 / 14:00～17:00（土曜日は16:00）</Typography>
                                 <Typography variant="subtitle1">受付時間は午前11:30、午後16:30（土曜日は16:00）までです。</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6"><CancelPresentationIcon className={classes.headerIcon}/>休診日</Typography>
+                                <Typography variant="h6"><CancelPresentationIcon className={classes.headerIcon} />休診日</Typography>
                                 <Typography variant="subtitle1">木曜日・日祝日・祭日</Typography>
                                 <Typography variant="subtitle1">※年末年始や学会参加等の理由により臨時でお休みをいただく場合もございます。</Typography>
                                 <Typography variant="subtitle1">休診の予定に関してはトップページのお知らせ、または休診のお知らせにてご確認お願い致します。</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6"><PermIdentityIcon className={classes.headerIcon}/>院長</Typography>
+                                <Typography variant="h6"><PermIdentityIcon className={classes.headerIcon} />院長</Typography>
                                 <Typography variant="subtitle1">庄司 純</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6"><LocalParkingIcon className={classes.headerIcon}/>駐車場</Typography>
+                                <Typography variant="h6"><LocalParkingIcon className={classes.headerIcon} />駐車場</Typography>
                                 <Typography variant="subtitle1">あり（7台）</Typography>
                                 <Typography variant="subtitle1">※当院駐車場が満車の場合は「三井のリパーク　木更津駅前第二」をご利用いただけます。（当院より徒歩2分のところにあります。）</Typography>
                                 <Typography variant="subtitle1">ご利用の場合は、受付にお声かけください。</Typography>
                             </div>
                         </TabPanel>
-                    </SwipeableViews>
-                </div>
+                    </SwipeableViews >
+                </div >
                 <div className={classes.scheduleHeaderWrapper}>
                     <Typography className={classes.scheduleHeader} variant="h5"><ScheduleIcon className={classes.headerIcon} />診療時間</Typography>
                 </div>
@@ -243,6 +240,7 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                         <Table>
                             <TableHead>
                                 <TableRow>
+                                    <TableCell align="center"></TableCell>
                                     <TableCell align="center">月</TableCell>
                                     <TableCell align="center">火</TableCell>
                                     <TableCell align="center">水</TableCell>
@@ -254,12 +252,54 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                             </TableHead>
                             <TableBody>
                                 <TableRow>
-                                    <TableCell align="center">11:30～16:30</TableCell>
-                                    <TableCell align="center">11:30～16:30</TableCell>
-                                    <TableCell align="center">11:30～16:30</TableCell>
-                                    <TableCell align="center">☓</TableCell>
-                                    <TableCell align="center">11:30～16:30</TableCell>
-                                    <TableCell align="center">11:30～16:00</TableCell>
+                                    <TableCell align="center">受付時間</TableCell>
+                                    <TableCell align="center">
+                                        <Typography variant="subtitle1">11:30～16:30</Typography>
+                                    </TableCell>
+                                    <TableCell align="center">
+                                        <Typography variant="subtitle1">11:30～16:30</Typography>
+                                    </TableCell>
+                                    <TableCell align="center">
+                                        <Typography variant="subtitle1">11:30～16:30</Typography>
+                                    </TableCell>
+                                    <TableCell align="center">
+                                        <Typography variant="subtitle1">☓</Typography>
+                                    </TableCell>
+                                    <TableCell align="center">
+                                        <Typography variant="subtitle1">11:30～16:30</Typography>
+                                    </TableCell>
+                                    <TableCell align="center">
+                                        <Typography variant="subtitle1">11:30～16:30</Typography>
+                                    </TableCell>
+                                    <TableCell align="center">
+                                        <Typography variant="subtitle1">☓</Typography>
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell align="center">診療時間</TableCell>
+                                    <TableCell align="center">
+                                        <Typography variant="subtitle1">9:00～12:00</Typography>
+                                        <Typography variant="subtitle1">14:00～17:00</Typography>
+                                    </TableCell>
+                                    <TableCell align="center">
+                                        <Typography variant="subtitle1">9:00～12:00</Typography>
+                                        <Typography variant="subtitle1">14:00～17:00</Typography>
+                                    </TableCell>
+                                    <TableCell align="center">
+                                        <Typography variant="subtitle1">9:00～12:00</Typography>
+                                        <Typography variant="subtitle1">14:00～17:00</Typography>
+                                    </TableCell>
+                                    <TableCell align="center">
+                                        <Typography variant="subtitle1">☓</Typography>
+                                    </TableCell>
+                                    <TableCell align="center">
+                                        <Typography variant="subtitle1">9:00～12:00</Typography>
+                                        <Typography variant="subtitle1">14:00～17:00</Typography>
+                                    </TableCell>
+                                    <TableCell align="center">
+                                        <Typography variant="subtitle1">9:00～12:00</Typography>
+                                        <Typography variant="subtitle1">14:00～16:00</Typography>
+                                    </TableCell>
                                     <TableCell align="center">☓</TableCell>
                                 </TableRow>
                             </TableBody>
@@ -285,7 +325,7 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                     <Typography variant="subtitle1">紹介状をお持ちの方は合わせてご持参をお願い致します。 </Typography>
                     <Typography variant="subtitle1">受付時間は午前11:30、午後16:30（土曜日は16:00)までです。</Typography>
                 </div>
-            </div>
+            </div >
         </>
     )
 }
