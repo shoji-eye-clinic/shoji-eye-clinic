@@ -252,30 +252,6 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                             </TableHead>
                             <TableBody>
                                 <TableRow>
-                                    <TableCell align="center">受付時間</TableCell>
-                                    <TableCell align="center">
-                                        <Typography variant="subtitle1">11:30～16:30</Typography>
-                                    </TableCell>
-                                    <TableCell align="center">
-                                        <Typography variant="subtitle1">11:30～16:30</Typography>
-                                    </TableCell>
-                                    <TableCell align="center">
-                                        <Typography variant="subtitle1">11:30～16:30</Typography>
-                                    </TableCell>
-                                    <TableCell align="center">
-                                        <Typography variant="subtitle1">☓</Typography>
-                                    </TableCell>
-                                    <TableCell align="center">
-                                        <Typography variant="subtitle1">11:30～16:30</Typography>
-                                    </TableCell>
-                                    <TableCell align="center">
-                                        <Typography variant="subtitle1">11:30～16:00</Typography>
-                                    </TableCell>
-                                    <TableCell align="center">
-                                        <Typography variant="subtitle1">☓</Typography>
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
                                     <TableCell align="center">診療時間</TableCell>
                                     <TableCell align="center">
                                         <Typography variant="subtitle1">9:00～12:00</Typography>
