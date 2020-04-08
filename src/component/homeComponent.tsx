@@ -177,20 +177,16 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                     >
                         <TabPanel value={value} index={0} dir={theme.direction} >
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">今後の休診について</Typography>
+                                <Typography variant="h6">お知らせ</Typography>
                                 <Typography variant="subtitle1">休診は下記を予定しておりますが、新型コロナウイルス感染症の状況により診療日や診療時間に変更が生じる可能性がありますので、ご注意ください。</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2020年3月</Typography>
-                                <Typography variant="subtitle1">3月の学会はすべて中止になりましたので、3月21日の休診は取りやめ診療致します。</Typography>
-                            </div>
-                            <div className={classes.tabBody}>
                                 <Typography variant="h6">2020年4月</Typography>
-                                <Typography variant="subtitle1">4月18日(土)</Typography>  
+                                <Typography variant="subtitle1">休診の予定はありません。</Typography>  
                             </div>
                             <div className={classes.tabBody}>
                                 <Typography variant="h6">2020年5月</Typography>
-                                <Typography variant="subtitle1">5月16日(土)</Typography>
+                                <Typography variant="subtitle1">休診の予定はありません。</Typography>
                             </div>
                             <div className={classes.tabBody}>
                                 <Typography variant="h6">2020年6月</Typography>
@@ -266,33 +262,8 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                                         <Typography variant="subtitle1">14:00～17:00</Typography>
                                     </TableCell>
                                     <TableCell align="center">
-                                        <Typography variant="subtitle1">☓</Typography>
-                                    </TableCell>
-                                    <TableCell align="center">
-                                        <Typography variant="subtitle1">☓</Typography>
-                                    </TableCell>
-                                    <TableCell align="center">
                                         <Typography variant="subtitle1">9:00～12:00</Typography>
                                         <Typography variant="subtitle1">14:00～17:00</Typography>
-                                    </TableCell>
-                                    <TableCell align="center">
-                                        <Typography variant="subtitle1">9:00～12:00</Typography>
-                                        <Typography variant="subtitle1">14:00～16:00</Typography>
-                                    </TableCell>
-                                    <TableCell align="center">☓</TableCell>
-                                </TableRow>
-                                 <TableRow>
-                                    <TableCell align="center">診療時間</TableCell>
-                                    <TableCell align="center">
-                                        <Typography variant="subtitle1">9:00～12:00</Typography>
-                                        <Typography variant="subtitle1">14:00～17:00</Typography>
-                                    </TableCell>
-                                    <TableCell align="center">
-                                        <Typography variant="subtitle1">9:00～12:00</Typography>
-                                        <Typography variant="subtitle1">14:00～17:00</Typography>
-                                    </TableCell>
-                                    <TableCell align="center">
-                                        <Typography variant="subtitle1">☓</Typography>
                                     </TableCell>
                                     <TableCell align="center">
                                         <Typography variant="subtitle1">☓</Typography>
@@ -308,7 +279,6 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                                     <TableCell align="center">☓</TableCell>
                                 </TableRow>
                             </TableBody>
-
                         </Table>
                     </TableContainer>
                 </div>
