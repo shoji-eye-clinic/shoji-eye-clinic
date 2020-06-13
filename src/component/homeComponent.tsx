@@ -181,16 +181,12 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                                 <Typography variant="subtitle1">休診は下記を予定しておりますが、新型コロナウイルス感染症の状況により診療日や診療時間に変更が生じる可能性がありますので、ご注意ください。</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2020年4月</Typography>
+                                <Typography variant="h6">2020年6月</Typography>
                                 <Typography variant="subtitle1">休診の予定はありません。</Typography>  
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2020年5月</Typography>
+                                <Typography variant="h6">2020年7月</Typography>
                                 <Typography variant="subtitle1">休診の予定はありません。</Typography>
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">2020年6月</Typography>
-                                <Typography variant="subtitle1">6月13日(土)</Typography>
                                 <Typography variant="subtitle1">※詳細につきましてはお電話でお問い合わせください（0438-25-3141）</Typography>
                             </div>
                         </TabPanel>
