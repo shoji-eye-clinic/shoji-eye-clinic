@@ -181,25 +181,15 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                                 <Typography variant="subtitle1">休診は下記を予定しておりますが、新型コロナウイルス感染症の状況により診療日や診療時間に変更が生じる可能性がありますので、ご注意ください。</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2020年7月</Typography>
-                                <Typography variant="subtitle1">休診の予定はありません。</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">2020年8月</Typography>
-                                <Typography variant="subtitle1">8月13日(木)〜16日(日)は夏季休診日とさせていただきます。</Typography>
-                                <Typography variant="subtitle1">ご不便をおかけいたしますが、あらかじめご了承ください。</Typography>
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">2020年9月</Typography>
-                                <Typography variant="subtitle1">9月19日(土)</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
                                 <Typography variant="h6">2020年10月</Typography>
                                 <Typography variant="subtitle1">10月7日(水)</Typography>
                                 <Typography variant="subtitle1">10月10日(土)</Typography>
                                 <Typography variant="subtitle1">10月17日(土)</Typography>  
                             </div>
-                                <Typography variant="subtitle1">※詳細につきましてはお電話でお問い合わせください（0438-25-3141）</Typography>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2020年11月</Typography>
+                                <Typography variant="subtitle1">休診の予定はありません。</Typography>  
+                            </div>
                         </TabPanel>
                         <TabPanel value={value} index={1} dir={theme.direction}>
                             <div className={classes.tabBody}>
