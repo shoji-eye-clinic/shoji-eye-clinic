@@ -190,6 +190,11 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                                 <Typography variant="h6">2020年11月</Typography>
                                 <Typography variant="subtitle1">休診の予定はありません。</Typography>  
                             </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2020年12月</Typography>
+                                <Typography variant="subtitle1">12月5日(土)</Typography>  
+                                <Typography variant="subtitle1">※学会出張のため、上記を臨時休診とさせていただいていますが、新型コロナウイルス感染症対策により予定が変更になることがありますので、詳細はお問い合わせください。</Typography>  
+                            </div>
                         </TabPanel>
                         <TabPanel value={value} index={1} dir={theme.direction}>
                             <div className={classes.tabBody}>
