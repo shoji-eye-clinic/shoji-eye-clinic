@@ -179,28 +179,23 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                             <div className={classes.tabBody}>
                                 <Typography variant="h6">お知らせ</Typography>
                                 <Typography variant="subtitle1">休診は下記を予定しておりますが、新型コロナウイルス感染症の状況により診療日や診療時間に変更が生じる可能性がありますので、ご注意ください。</Typography>
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">2021年5月</Typography>
-                                <Typography variant="subtitle1">5月22日(土)・午後</Typography>
-                                <Typography variant="subtitle1">※学会出張の為、上記日程を臨時休診とさせていただいておりますが、新型コロナウイルス感染症対策により予定が変更になることがあります。詳細はお問い合わせください。</Typography>  
-                                <Typography variant="subtitle1">　</Typography>  
-                                <Typography variant="subtitle1">5月29日(土)・午後の受付15時まで</Typography>  
-                                <Typography variant="subtitle1">※ワクチン接種予定の為、午後の受付を15時で終了させていただきます。</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">2021年6月</Typography>
-                                <Typography variant="subtitle1">6月2日(水)・午後の受付15時まで</Typography>  
-                                <Typography variant="subtitle1">※ワクチン接種予定の為、午後の受付を15時で終了させていただきます。</Typography>  
-                                <Typography variant="subtitle1">　</Typography>  
-                                <Typography variant="subtitle1">6月5日(土)</Typography>  
-                                <Typography variant="subtitle1">※学会出張の為、上記日程を臨時休診とさせていただいておりますが、新型コロナウイルス感染症対策により予定が変更になることがあります。詳細はお問い合わせください。</Typography>  
+                                <Typography variant="subtitle1">詳細は受付までお問い合わせください。</Typography>
                             </div>
                             <div className={classes.tabBody}>
                                 <Typography variant="h6">2021年7月</Typography>
-                                <Typography variant="subtitle1">7月24日(土)</Typography>  
+                                <Typography variant="subtitle1">7月24日(土)</Typography>
                                 <Typography variant="subtitle1">※7月22日〜25日が連休となります。ご注意ください。</Typography>  
-                                <Typography variant="subtitle1">※学会出張の為、上記日程を臨時休診とさせていただいておりますが、新型コロナウイルス感染症対策により予定が変更になることがあります。詳細はお問い合わせください。</Typography>  
+                                <Typography variant="subtitle1">　</Typography>  
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2021年8月</Typography>
+                                <Typography variant="subtitle1">8月12日(木)〜15日(日)</Typography>  
+                                <Typography variant="subtitle1">※上記日程を夏季休診とさせていただきます。ご迷惑おかけいたしますが、ご了承いただけますようお願い申し上げます。</Typography>  
+                                <Typography variant="subtitle1">　</Typography>  
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2021年9月</Typography>
+                                <Typography variant="subtitle1">現在、休診の予定はありません。</Typography>  
                             </div>
                         </TabPanel>
                         <TabPanel value={value} index={1} dir={theme.direction}>
