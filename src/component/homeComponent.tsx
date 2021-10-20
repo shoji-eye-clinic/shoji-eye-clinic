@@ -195,7 +195,7 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                             </div>
                             <div className={classes.tabBody}>
                                 <Typography variant="h6">2021年11月</Typography>
-                                <Typography variant="subtitle1">現在、休診の予定はありません。</Typography>  
+                                <Typography variant="subtitle1">11月27日(土)</Typography>  
                                 <Typography variant="subtitle1">　</Typography>  
                             </div>
                             <div className={classes.tabBody}>
