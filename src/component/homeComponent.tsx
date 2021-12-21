@@ -182,28 +182,31 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                                 <Typography variant="subtitle1">詳細は受付までお問い合わせください。</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2021年9月</Typography>
-                                <Typography variant="subtitle1">現在、休診の予定はありません。</Typography>
-                                <Typography variant="subtitle1">　</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">2021年10月</Typography>
-                                <Typography variant="subtitle1">10月9日(土)</Typography>  
-                                <Typography variant="subtitle1">10月29日(金)・30日(土)</Typography>  
-                                <Typography variant="subtitle1">※10月28日(木)〜31日(日)までは連休です。ご注意ください。</Typography>  
-                                <Typography variant="subtitle1">　</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">2021年11月</Typography>
-                                <Typography variant="subtitle1">11月27日(土)</Typography>  
-                                <Typography variant="subtitle1">　</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
                                 <Typography variant="h6">2021年12月</Typography>
-                                <Typography variant="subtitle1">12月11日(土)</Typography>  
-                                <Typography variant="subtitle1">年末年始の休暇は別途お知らせ致します。</Typography>  
+                                <Typography variant="subtitle1">12月11日(土)</Typography>
                                 <Typography variant="subtitle1">　</Typography>  
-                                <Typography variant="subtitle1">※学会出張のため上記日程を臨時休診とさせていただいておりますが、新型コロナウイルス感染症対策により予定が急に変更になることがあります。詳細は受付にお問い合わせください。</Typography>  
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">年末年始のお休み</Typography>
+                                <Typography variant="subtitle1">年末年始は12月29日〜1月4日までお休みさせていただきます。</Typography>  
+                                <Typography variant="subtitle1">1月5日から通常診療です。</Typography>  
+                                <Typography variant="subtitle1">ご迷惑をおかけいたしますが、よろしくお願いいたします。</Typography>  
+                                <Typography variant="subtitle1">　</Typography>  
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2022年1月</Typography>
+                                <Typography variant="subtitle1">1月8日(土)・午後</Typography>  
+                                <Typography variant="subtitle1">　</Typography>  
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2022年2月</Typography>
+                                <Typography variant="subtitle1">現在、休診の予定はありません。</Typography>  
+                                <Typography variant="subtitle1">　</Typography>  
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2022年3月</Typography>
+                                <Typography variant="subtitle1">3月26日(土)</Typography>  
+                                <Typography variant="subtitle1">　</Typography>  
                             </div>
                         </TabPanel>
                         <TabPanel value={value} index={1} dir={theme.direction}>
