@@ -182,20 +182,8 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                                 <Typography variant="subtitle1">詳細は受付までお問い合わせください。</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2021年12月</Typography>
-                                <Typography variant="subtitle1">12月11日(土)</Typography>
-                                <Typography variant="subtitle1">　</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">年末年始のお休み</Typography>
-                                <Typography variant="subtitle1">年末年始は12月29日〜1月4日までお休みさせていただきます。</Typography>  
-                                <Typography variant="subtitle1">1月5日から通常診療です。</Typography>  
-                                <Typography variant="subtitle1">ご迷惑をおかけいたしますが、よろしくお願いいたします。</Typography>  
-                                <Typography variant="subtitle1">　</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
                                 <Typography variant="h6">2022年1月</Typography>
-                                <Typography variant="subtitle1">1月8日(土)・午後</Typography>  
+                                <Typography variant="subtitle1">1月8日(土)・午後</Typography>
                                 <Typography variant="subtitle1">　</Typography>  
                             </div>
                             <div className={classes.tabBody}>
@@ -206,6 +194,13 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                             <div className={classes.tabBody}>
                                 <Typography variant="h6">2022年3月</Typography>
                                 <Typography variant="subtitle1">3月26日(土)</Typography>  
+                                <Typography variant="subtitle1">　</Typography>  
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2022年4月</Typography>
+                                <Typography variant="subtitle1">4月15日(金)</Typography>  
+                                <Typography variant="subtitle1">4月16日(土)</Typography>  
+                                <Typography variant="subtitle1">※4月14日〜17日までは連休になりますのでご注意ください。</Typography>  
                                 <Typography variant="subtitle1">　</Typography>  
                             </div>
                         </TabPanel>
