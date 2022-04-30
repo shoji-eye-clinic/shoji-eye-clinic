@@ -182,25 +182,26 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                                 <Typography variant="subtitle1">詳細は受付までお問い合わせください。</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2022年1月</Typography>
-                                <Typography variant="subtitle1">1月8日(土)・午後</Typography>
+                                <Typography variant="h6">2022年5月</Typography>
+                                <Typography variant="subtitle1">現在、休診の予定はありません。</Typography>
                                 <Typography variant="subtitle1">　</Typography>  
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2022年2月</Typography>
+                                <Typography variant="h6">2022年6月</Typography>
                                 <Typography variant="subtitle1">現在、休診の予定はありません。</Typography>  
                                 <Typography variant="subtitle1">　</Typography>  
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2022年3月</Typography>
-                                <Typography variant="subtitle1">3月26日(土)</Typography>  
+                                <Typography variant="h6">2022年7月</Typography>
+                                <Typography variant="subtitle1">7月8日(金)・午後</Typography>  
+                                <Typography variant="subtitle1">7月9日(土)</Typography>  
                                 <Typography variant="subtitle1">　</Typography>  
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2022年4月</Typography>
-                                <Typography variant="subtitle1">4月15日(金)</Typography>  
-                                <Typography variant="subtitle1">4月16日(土)</Typography>  
-                                <Typography variant="subtitle1">※4月14日〜17日までは連休になりますのでご注意ください。</Typography>  
+                                <Typography variant="h6">夏季休暇のお知らせ</Typography>
+                                <Typography variant="subtitle1">8月11日(木・祭日)〜15日(月)</Typography>  
+                                <Typography variant="subtitle1">上記日程を夏季休暇の為、休診とさせていただきます。</Typography>  
+                                <Typography variant="subtitle1">ご不便をおかけいたしますが、よろしくお願いいたします。</Typography>  
                                 <Typography variant="subtitle1">　</Typography>  
                             </div>
                         </TabPanel>
