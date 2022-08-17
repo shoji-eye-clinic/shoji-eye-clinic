@@ -182,26 +182,22 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                                 <Typography variant="subtitle1">詳細は受付までお問い合わせください。</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2022年5月</Typography>
-                                <Typography variant="subtitle1">現在、休診の予定はありません。</Typography>
+                                <Typography variant="h6">夏季休暇のお知らせ</Typography>
+                                <Typography variant="subtitle1">8月11日(木・祝)〜15日(月)</Typography>
+                                <Typography variant="subtitle1">上記日程を夏季休暇の為、休診とさせていただきます。</Typography>
+                                <Typography variant="subtitle1">ご不便をおかけいたしますが、よろしくお願いいたします。</Typography>
                                 <Typography variant="subtitle1">　</Typography>  
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2022年6月</Typography>
+                                <Typography variant="h6">2022年9月</Typography>
                                 <Typography variant="subtitle1">現在、休診の予定はありません。</Typography>  
                                 <Typography variant="subtitle1">　</Typography>  
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2022年7月</Typography>
-                                <Typography variant="subtitle1">7月8日(金)・午後</Typography>  
-                                <Typography variant="subtitle1">7月9日(土)</Typography>  
-                                <Typography variant="subtitle1">　</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">夏季休暇のお知らせ</Typography>
-                                <Typography variant="subtitle1">8月11日(木・祭日)〜15日(月)</Typography>  
-                                <Typography variant="subtitle1">上記日程を夏季休暇の為、休診とさせていただきます。</Typography>  
-                                <Typography variant="subtitle1">ご不便をおかけいたしますが、よろしくお願いいたします。</Typography>  
+                                <Typography variant="h6">2022年10月</Typography>
+                                <Typography variant="subtitle1">10月7日(金)</Typography>  
+                                <Typography variant="subtitle1">10月8日(土)</Typography>  
+                                <Typography variant="subtitle1">※10月6日(木)〜10月10日(月・祝)は連休になりますのでご注意ください。</Typography>  
                                 <Typography variant="subtitle1">　</Typography>  
                             </div>
                         </TabPanel>
