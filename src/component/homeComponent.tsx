@@ -182,25 +182,25 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                                 <Typography variant="subtitle1">詳細は受付までお問い合わせください。</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2022年11月</Typography>
-                                <Typography variant="subtitle1">11月5日(土)</Typography>
-                                <Typography variant="subtitle1">　</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">2022年12月</Typography>
-                                <Typography variant="subtitle1">12月10日(土)</Typography>  
-                                <Typography variant="subtitle1">　</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">年末年始休診のお知らせ</Typography>
-                                <Typography variant="subtitle1">12月29日(木)〜1月5日(木)</Typography>  
-                                <Typography variant="subtitle1">上記の間は年末・年始休暇のため休診とさせていただきます。</Typography>  
-                                <Typography variant="subtitle1">ご迷惑をおかけし申し訳ございませんが、よろしくお願いいたします。</Typography>  
-                                <Typography variant="subtitle1">　</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
                                 <Typography variant="h6">2023年1月</Typography>
+                                <Typography variant="subtitle1">現在、休診の予定はありません。</Typography>
+                                <Typography variant="subtitle1">　</Typography>  
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2023年2月</Typography>
                                 <Typography variant="subtitle1">現在、休診の予定はありません。</Typography>  
+                                <Typography variant="subtitle1">　</Typography>  
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2023年3月</Typography>
+                                <Typography variant="subtitle1">3月18日(土)</Typography>  
+                                <Typography variant="subtitle1">3月18日(土)・19日(日)が連休になりますので、ご注意ください。</Typography>  
+                                <Typography variant="subtitle1">　</Typography>  
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2023年4月</Typography>
+                                <Typography variant="subtitle1">4月7日(金)</Typography>  
+                                <Typography variant="subtitle1">4月6日(木)・7日(金)が連休になりますので、ご注意ください。</Typography>  
                                 <Typography variant="subtitle1">　</Typography>  
                             </div>
                         </TabPanel>
