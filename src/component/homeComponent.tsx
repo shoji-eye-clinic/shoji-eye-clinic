@@ -178,29 +178,33 @@ const HomeComponent: React.FC<Props> = (props: Props) => {
                         <TabPanel value={value} index={0} dir={theme.direction} >
                             <div className={classes.tabBody}>
                                 <Typography variant="h6">お知らせ</Typography>
-                                <Typography variant="subtitle1">休診は下記を予定しておりますが、新型コロナウイルス感染症の状況により診療日や診療時間に変更が生じる可能性がありますので、ご注意ください。</Typography>
+                                <Typography variant="subtitle1">休診は下記を予定しておりますが、診療日や診療時間に変更が生じる可能性がありますのでご注意ください。</Typography>
                                 <Typography variant="subtitle1">詳細は受付までお問い合わせください。</Typography>
                             </div>
                             <div className={classes.tabBody}>
-                                <Typography variant="h6">2023年1月</Typography>
-                                <Typography variant="subtitle1">現在、休診の予定はありません。</Typography>
-                                <Typography variant="subtitle1">　</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">2023年2月</Typography>
-                                <Typography variant="subtitle1">現在、休診の予定はありません。</Typography>  
-                                <Typography variant="subtitle1">　</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
-                                <Typography variant="h6">2023年3月</Typography>
-                                <Typography variant="subtitle1">3月18日(土)</Typography>  
-                                <Typography variant="subtitle1">3月18日(土)・19日(日)が連休になりますので、ご注意ください。</Typography>  
-                                <Typography variant="subtitle1">　</Typography>  
-                            </div>
-                            <div className={classes.tabBody}>
                                 <Typography variant="h6">2023年4月</Typography>
-                                <Typography variant="subtitle1">4月7日(金)</Typography>  
+                                <Typography variant="subtitle1">4月7日(金)</Typography>
                                 <Typography variant="subtitle1">4月6日(木)・7日(金)が連休になりますので、ご注意ください。</Typography>  
+                                <Typography variant="subtitle1"></Typography>
+                                <Typography variant="subtitle1">　</Typography>  
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2023年5月</Typography>
+                                <Typography variant="subtitle1">5月20日(土)・午後</Typography>  
+                                <Typography variant="subtitle1">※午前は通常診療です。</Typography>  
+                                <Typography variant="subtitle1">　</Typography>  
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2023年6月</Typography>
+                                <Typography variant="subtitle1">6月7日(水)・午後</Typography>  
+                                <Typography variant="subtitle1">※午前は通常診療です。</Typography>  
+                                <Typography variant="subtitle1">　</Typography>  
+                            </div>
+                            <div className={classes.tabBody}>
+                                <Typography variant="h6">2023年7月</Typography>
+                                <Typography variant="subtitle1">7月7日(金)</Typography>  
+                                <Typography variant="subtitle1">7月8日(土)</Typography>  
+                                <Typography variant="subtitle1">※7月6日(木)〜9日(日)が連休になりますので、ご注意ください。</Typography>  
                                 <Typography variant="subtitle1">　</Typography>  
                             </div>
                         </TabPanel>
