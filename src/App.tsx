@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Route, Link, Routes } from 'react-router-dom'
 import { AppBar, Toolbar, Typography, makeStyles, Grid } from '@material-ui/core'
 import HomeComponent from './component/homeComponent'
 import MessageComponent from './component/messageComponent'
@@ -45,7 +45,7 @@ const useStyles = makeStyles({
 const App: React.FC = () => {
   const classes = useStyles();
   return (
-    <BrowserRouter className={classes.root}>
+    <BrowserRouter>
       <AppBar position="static" color="primary">
         <Toolbar>
           <Typography variant="h6" className={classes.title}><Link to="/" className={classes.link}>庄司眼科医院</Link></Typography>
@@ -55,9 +55,11 @@ const App: React.FC = () => {
           </div>
         </Toolbar>
       </AppBar>
-      <Route path='/' component={HomeComponent} exact />
-      <Route path='/message' component={MessageComponent} />
-      <Route path='/access' component={AccessComponent} />
+      <Routes>
+        <Route path='/' Component={HomeComponent} />
+        <Route path='/message' Component={MessageComponent} />
+        <Route path='/access' Component={AccessComponent} />
+      </Routes>
       <div className={classes.footer}>
         <Grid container className={classes.footerGridContainer}>
           <Grid item xs={12} sm={8} className={classes.aboutUs}>
