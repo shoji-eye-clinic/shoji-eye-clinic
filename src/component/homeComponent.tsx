@@ -183,30 +183,19 @@ const HomeComponent: React.FC<Props> = () => {
                 <Typography variant="subtitle1">詳細は受付までお問い合わせください。</Typography>
               </div>
               <div className={classes.tabBody}>
-                <Typography variant="h6">2023年4月</Typography>
-                <Typography variant="subtitle1">4月7日(金)</Typography>
-                <Typography variant="subtitle1">4月6日(木)・7日(金)が連休になりますので、ご注意ください。</Typography>
-                <Typography variant="subtitle1"></Typography>
-                <Typography variant="subtitle1">　</Typography>
-              </div>
-              <div className={classes.tabBody}>
-                <Typography variant="h6">2023年5月</Typography>
-                <Typography variant="subtitle1">5月20日(土)・午後</Typography>
-                <Typography variant="subtitle1">※午前は通常診療です。</Typography>
-                <Typography variant="subtitle1">　</Typography>
-              </div>
-              <div className={classes.tabBody}>
-                <Typography variant="h6">2023年6月</Typography>
-                <Typography variant="subtitle1">6月7日(水)・午後</Typography>
-                <Typography variant="subtitle1">※午前は通常診療です。</Typography>
-                <Typography variant="subtitle1">　</Typography>
-              </div>
-              <div className={classes.tabBody}>
                 <Typography variant="h6">2023年7月</Typography>
                 <Typography variant="subtitle1">7月7日(金)</Typography>
                 <Typography variant="subtitle1">7月8日(土)</Typography>
                 <Typography variant="subtitle1">※7月6日(木)〜9日(日)が連休になりますので、ご注意ください。</Typography>
-                <Typography variant="subtitle1">　</Typography>
+              </div>
+              <div className={classes.tabBody}>
+                <Typography variant="h6">2023年8月</Typography>
+                <Typography variant="subtitle1">8月5日(土)</Typography>
+                <Typography variant="subtitle1">8月19日(土)・午後</Typography>
+              </div>
+              <div className={classes.tabBody}>
+                <Typography variant="h6">2023年9月</Typography>
+                <Typography variant="subtitle1">9月2日(土)</Typography>
               </div>
             </TabPanel>
             <TabPanel value={value} index={1} dir={theme.direction}>
