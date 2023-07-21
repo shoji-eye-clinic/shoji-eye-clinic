@@ -194,6 +194,12 @@ const HomeComponent: React.FC<Props> = () => {
                 <Typography variant="subtitle1">8月19日(土)・午後</Typography>
               </div>
               <div className={classes.tabBody}>
+                <Typography variant="h6">夏季休診のお知らせ</Typography>
+                <Typography variant="subtitle1">8月14日(月)・8月15日(火)・8月16日(水)</Typography>
+                <Typography variant="subtitle1">8月13日(日)から17日(木)まで連休です。ご注意ください。</Typography>
+                <Typography variant="subtitle1">8月18日(金)より通常診療です。</Typography>
+              </div>
+              <div className={classes.tabBody}>
                 <Typography variant="h6">2023年9月</Typography>
                 <Typography variant="subtitle1">9月2日(土)</Typography>
               </div>
