@@ -183,25 +183,25 @@ const HomeComponent: React.FC<Props> = () => {
                 <Typography variant="subtitle1">詳細は受付までお問い合わせください。</Typography>
               </div>
               <div className={classes.tabBody}>
-                <Typography variant="h6">2023年7月</Typography>
-                <Typography variant="subtitle1">7月7日(金)</Typography>
-                <Typography variant="subtitle1">7月8日(土)</Typography>
-                <Typography variant="subtitle1">※7月6日(木)〜9日(日)が連休になりますので、ご注意ください。</Typography>
+                <Typography variant="h6">2023年10月</Typography>
+                <Typography variant="subtitle1">10月6日(金)・7日(土)</Typography>
+                <Typography variant="subtitle1">10月20日(金)・21日(土)</Typography>
+                <Typography variant="subtitle1">※学会出張のため上記を臨時休診とさせていただきます。</Typography>
+                <Typography variant="subtitle1">※10月5日(木)〜9日(月・祝)および10月19日(木)〜22日(日)は連休です。ご注意ください。</Typography>
               </div>
               <div className={classes.tabBody}>
-                <Typography variant="h6">2023年8月</Typography>
-                <Typography variant="subtitle1">8月5日(土)</Typography>
-                <Typography variant="subtitle1">8月19日(土)・午後</Typography>
+                <Typography variant="h6">2023年11月</Typography>
+                <Typography variant="subtitle1">休診の予定はありません。</Typography>
               </div>
               <div className={classes.tabBody}>
-                <Typography variant="h6">夏季休診のお知らせ</Typography>
-                <Typography variant="subtitle1">8月14日(月)・8月15日(火)・8月16日(水)</Typography>
-                <Typography variant="subtitle1">8月13日(日)から17日(木)まで連休です。ご注意ください。</Typography>
-                <Typography variant="subtitle1">8月18日(金)より通常診療です。</Typography>
+                <Typography variant="h6">2023年12月</Typography>
+                <Typography variant="subtitle1">休診の予定はありません。</Typography>
+                <Typography variant="subtitle1">※年末・年始休暇は別途お知らせいたします。</Typography>
               </div>
               <div className={classes.tabBody}>
-                <Typography variant="h6">2023年9月</Typography>
-                <Typography variant="subtitle1">9月2日(土)</Typography>
+                <Typography variant="h6">年末年始休暇のお知らせ</Typography>
+                <Typography variant="subtitle1">12月28日(木)〜1月4日(木) </Typography>
+                <Typography variant="subtitle1">上記の期間は年末年始休暇のため休診とさせていただきます。1月5日(金)からは通常診療です。</Typography>
               </div>
             </TabPanel>
             <TabPanel value={value} index={1} dir={theme.direction}>
