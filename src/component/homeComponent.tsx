@@ -183,17 +183,6 @@ const HomeComponent: React.FC<Props> = () => {
                 <Typography variant="subtitle1">詳細は受付までお問い合わせください。</Typography>
               </div>
               <div className={classes.tabBody}>
-                <Typography variant="h6">2023年10月</Typography>
-                <Typography variant="subtitle1">10月6日(金)・7日(土)</Typography>
-                <Typography variant="subtitle1">10月20日(金)・21日(土)</Typography>
-                <Typography variant="subtitle1">※学会出張のため上記を臨時休診とさせていただきます。</Typography>
-                <Typography variant="subtitle1">※10月5日(木)〜9日(月・祝)および10月19日(木)〜22日(日)は連休です。ご注意ください。</Typography>
-              </div>
-              <div className={classes.tabBody}>
-                <Typography variant="h6">2023年11月</Typography>
-                <Typography variant="subtitle1">休診の予定はありません。</Typography>
-              </div>
-              <div className={classes.tabBody}>
                 <Typography variant="h6">2023年12月</Typography>
                 <Typography variant="subtitle1">休診の予定はありません。</Typography>
                 <Typography variant="subtitle1">※年末・年始休暇は別途お知らせいたします。</Typography>
@@ -202,6 +191,14 @@ const HomeComponent: React.FC<Props> = () => {
                 <Typography variant="h6">年末年始休暇のお知らせ</Typography>
                 <Typography variant="subtitle1">12月28日(木)〜1月4日(木) </Typography>
                 <Typography variant="subtitle1">上記の期間は年末年始休暇のため休診とさせていただきます。1月5日(金)からは通常診療です。</Typography>
+              </div>
+              <div className={classes.tabBody}>
+                <Typography variant="h6">2024年1月</Typography>
+                <Typography variant="subtitle1">休診の予定はありません。 </Typography>
+              </div>
+              <div className={classes.tabBody}>
+                <Typography variant="h6">2024年2月</Typography>
+                <Typography variant="subtitle1">休診の予定はありません。 </Typography>
               </div>
             </TabPanel>
             <TabPanel value={value} index={1} dir={theme.direction}>
