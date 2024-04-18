@@ -183,22 +183,25 @@ const HomeComponent: React.FC<Props> = () => {
                 <Typography variant="subtitle1">詳細は受付までお問い合わせください。</Typography>
               </div>
               <div className={classes.tabBody}>
-                <Typography variant="h6">2024年1月</Typography>
-                <Typography variant="subtitle1">休診の予定はありません。</Typography>
-              </div>
-              <div className={classes.tabBody}>
-                <Typography variant="h6">2024年2月</Typography>
-                <Typography variant="subtitle1">休診の予定はありません。 </Typography>
-              </div>
-              <div className={classes.tabBody}>
-                <Typography variant="h6">2024年3月</Typography>
-                <Typography variant="subtitle1">3月16日(土) </Typography>
-              </div>
-              <div className={classes.tabBody}>
-                <Typography variant="h6">2024年4月</Typography>
+              <Typography variant="h6">2024年4月</Typography>
                 <Typography variant="subtitle1">4月19日(金) </Typography>
                 <Typography variant="subtitle1">4月20日(土) </Typography>
                 <Typography variant="subtitle1">※4月18日(木)〜21日(日)は連休です。ご注意ください。</Typography>
+              </div>
+              <div className={classes.tabBody}>
+                <Typography variant="h6">2024年5月</Typography>
+                <Typography variant="subtitle1">5月18日(土)・午後 </Typography>
+              </div>
+              <div className={classes.tabBody}>
+                <Typography variant="h6">2024年6月</Typography>
+                <Typography variant="subtitle1">6月8日(土)・午後 </Typography>
+                <Typography variant="subtitle1">6月22日(土)・午後 </Typography>
+              </div>
+              <div className={classes.tabBody}>
+                <Typography variant="h6">2024年7月</Typography>
+                <Typography variant="subtitle1">7月5日(金) </Typography>
+                <Typography variant="subtitle1">7月6日(土) </Typography>
+                <Typography variant="subtitle1">※7月4日(木)〜7日(日)は連休です。ご注意ください。</Typography>
               </div>
             </TabPanel>
             <TabPanel value={value} index={1} dir={theme.direction}>
