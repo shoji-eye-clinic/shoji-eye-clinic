@@ -183,25 +183,30 @@ const HomeComponent: React.FC<Props> = () => {
                 <Typography variant="subtitle1">詳細は受付までお問い合わせください。</Typography>
               </div>
               <div className={classes.tabBody}>
-              <Typography variant="h6">2024年4月</Typography>
-                <Typography variant="subtitle1">4月19日(金) </Typography>
-                <Typography variant="subtitle1">4月20日(土) </Typography>
-                <Typography variant="subtitle1">※4月18日(木)〜21日(日)は連休です。ご注意ください。</Typography>
-              </div>
-              <div className={classes.tabBody}>
-                <Typography variant="h6">2024年5月</Typography>
-                <Typography variant="subtitle1">5月18日(土)・午後 </Typography>
-              </div>
-              <div className={classes.tabBody}>
-                <Typography variant="h6">2024年6月</Typography>
-                <Typography variant="subtitle1">6月8日(土)・午後 </Typography>
-                <Typography variant="subtitle1">6月22日(土)・午後 </Typography>
-              </div>
-              <div className={classes.tabBody}>
-                <Typography variant="h6">2024年7月</Typography>
+              <Typography variant="h6">2024年7月</Typography>
                 <Typography variant="subtitle1">7月5日(金) </Typography>
                 <Typography variant="subtitle1">7月6日(土) </Typography>
                 <Typography variant="subtitle1">※7月4日(木)〜7日(日)は連休です。ご注意ください。</Typography>
+              </div>
+              <div className={classes.tabBody}>
+                <Typography variant="h6">2024年8月</Typography>
+                <Typography variant="subtitle1">8月13日(火) </Typography>
+                <Typography variant="subtitle1">8月14日(水) </Typography>
+                <Typography variant="subtitle1">8月17日(土)・午後 </Typography>
+                <Typography variant="subtitle1">※8月11日(日)〜15日(木)は夏季休暇のため連休とさせていただきます。 </Typography>
+                <Typography variant="subtitle1">ご迷惑おかけいたしますが、ご理解の程よろしくお願いいたします。 </Typography>
+              </div>
+              <div className={classes.tabBody}>
+                <Typography variant="h6">2024年9月</Typography>
+                <Typography variant="subtitle1">9月14日(土) </Typography>
+                <Typography variant="subtitle1">※9月14日(土)〜16日(月・祝)は連休です。ご注意ください。 </Typography>
+              </div>
+              <div className={classes.tabBody}>
+                <Typography variant="h6">2024年10月</Typography>
+                <Typography variant="subtitle1">10月18日(金) </Typography>
+                <Typography variant="subtitle1">10月19日(土) </Typography>
+                <Typography variant="subtitle1">10月26日(土)・午後 </Typography>
+                <Typography variant="subtitle1">※10月17日(木)〜20日(日)は連休です。ご注意ください。</Typography>
               </div>
             </TabPanel>
             <TabPanel value={value} index={1} dir={theme.direction}>
