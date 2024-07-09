@@ -190,10 +190,12 @@ const HomeComponent: React.FC<Props> = () => {
               </div>
               <div className={classes.tabBody}>
                 <Typography variant="h6">2024年8月</Typography>
-                <Typography variant="subtitle1">8月13日(火) </Typography>
-                <Typography variant="subtitle1">8月14日(水) </Typography>
                 <Typography variant="subtitle1">8月17日(土)・午後 </Typography>
-                <Typography variant="subtitle1">※8月11日(日)〜15日(木)は夏季休暇のため連休とさせていただきます。 </Typography>
+              </div>
+              <div className={classes.tabBody}>
+                <Typography variant="h6">夏季休暇のお知らせ</Typography>
+                <Typography variant="subtitle1">8月11日(日)〜15日(木) </Typography>
+                <Typography variant="subtitle1">上記の期間は夏季休暇のため連休とさせていただきます。 </Typography>
                 <Typography variant="subtitle1">ご迷惑おかけいたしますが、ご理解の程よろしくお願いいたします。 </Typography>
               </div>
               <div className={classes.tabBody}>
